@@ -1,0 +1,63 @@
+.size-large {
+    max-width: 1000px;
+  }
+
+#details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.poster {
+    height: 350px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .visuals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .ratings {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    padding: 0 10px;
+  }
+
+  .movie-rating {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    margin: 0 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .info p {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  iframe {
+    margin: 5px 0;
+    height: 350px;
+    width: 622px;
+    border: none;
+  }
+
+  .info p:last-child {
+    margin: 20px 0 0;
+  }
