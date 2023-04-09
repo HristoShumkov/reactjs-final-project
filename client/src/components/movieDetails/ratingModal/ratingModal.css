@@ -1,0 +1,54 @@
+.modal-bg {
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+.container-modal button {
+    width: 400px;
+}
+
+.container-modal ul {
+    display: flex;
+    padding: 0;
+}
+
+.container-modal li {
+    list-style: none;
+}
+
+.star {
+    cursor: pointer;
+    color: var(--color-black);
+    margin: 0 2px;
+}
+
+.active {
+    color: var(--color-gold);
+}
+
+#button-close {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    font-size: 20px;
+    left: 230px;
+    border-radius: 50px;
+    background: none;
+}
+
+#button-close:hover {
+    background-color: #2b271b;
+}

@@ -1,0 +1,27 @@
+#details {
+    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-pfp {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.details-info {
+    margin: 0 50px;
+}
+
+.details-info h1 {
+    font-size: 3rem;
+    margin: 50px 0;
+}
+
+.details-info p {
+    margin: 50px 0;
+    font-size: 1.5rem;
+}
